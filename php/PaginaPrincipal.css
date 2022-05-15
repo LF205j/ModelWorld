@@ -1,0 +1,344 @@
+.uno a{
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    padding-top: -5px;
+    margin-top: -25px;
+    background-color:rgb(32, 113, 39) ;
+    color: #fff;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    transition: 2s;
+    font-size: 15px;
+   
+}
+.uno a:hover{
+    background-color: black;
+    
+}
+
+.container img{
+    min-width: 100%;
+    height: 650px;
+    opacity: 50%;
+    
+}
+.container p{
+    font-size: 120px;
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-style: solid; 
+    border-width: 10px;
+    padding: 60px;
+    background-color: rgb(32, 113, 39);
+}
+#Datos1{
+       
+    height: 40px;
+    min-width: 1200px;
+    background-color:rgb(32, 113, 39) ;
+    padding: 15px;
+    
+}
+#Datos2{
+    height: 70px;
+    min-width: 1200px;
+    background-color:rgb(32, 113, 39) ;
+    padding: 15px;
+    
+}
+h1{
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    height: 20px;
+    width: 25px;
+}
+
+h2{
+    color: white;
+    
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-left: 800px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border:rgb(170, 167, 167) ;
+    font-size: 35px;
+    
+}
+
+h3{
+    color: white;
+    
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-left: 800px;
+    background-color:rgb(32, 113, 39) ;
+    padding: 30px;
+    border:rgb(170, 167, 167) ;
+    font-size: 35px;
+    margin-top: -5px;
+    
+}
+td{
+      
+    height: 0px;
+    
+}
+hr{
+    width: 60%;
+}
+tr{
+    color: rgb(170, 167, 167);
+    height: 20px;
+}
+
+
+@media (min-width: 480px){
+    
+    nav a:hover{
+       color:black;
+   }
+   nav{
+    padding: 20px 0px;
+    }
+   html{
+       background-color: rgb(209, 209, 202);
+   }
+    header{
+       display: flex;
+       height: 75px;
+       background-color:rgb(32, 113, 39) ;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px;
+   }
+   header.abajo{
+       background:black;
+       padding: 15px 15px; 
+   }
+  
+  .logo{
+       display: flex;
+       align-items: center;
+   }
+   .logo img{
+       height: 70px;
+       margin-right: 0px;
+   }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+   
+   nav a{
+       font-weight: 600;
+       padding-right: 15px;
+     
+   }
+   
+  
+   
+
+   ::before, ::after{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   
+   li a:hover{
+       color: black;
+       
+       
+   }
+   .logo{
+       display: flex;
+       align-items: center;
+   }
+   .logo img{
+       height: 70px;
+       margin-right: 0px;
+   }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+   
+   nav a{
+       font-weight: 600;
+       padding-right: 15px;
+   }
+   
+
+}
+@media (max-width: 700px) {
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 20px 0px;
+    }
+    
+    nav a:hover{
+        color:black;
+    }
+    nav a{
+        font-weight: 600;
+        padding-right: 15px;
+    }
+    
+    
+}
+
+@media (min-width: 800px){
+    
+   html{
+       background-color: rgb(209, 209, 202);
+   }
+   
+   header.abajo{
+       background:black;
+       padding: 15px 15px;
+       
+   }
+   ::before, ::after{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   
+ 
+   li a:hover{
+       color: black;
+       
+   }
+   .logo{
+       display: flex;
+       align-items: center;
+   }
+   .logo img{
+       height: 70px;
+       margin-right: 0px;
+   }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+   
+   nav a{
+       font-weight: 600;
+   }
+   
+}
+@media (min-width: 1300px){
+   header{
+       display: flex;
+       height: 75px;
+       background-color:rgb(32, 113, 39) ;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px;
+   }
+   .logo{
+       display: flex;
+       align-items: center;
+   }
+   .logo img{
+       height: 70px;
+       margin-right: 0px;
+   }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+   
+   nav a{
+       font-weight: 600;
+       padding-right: 15px;
+   }
+  
+} 
+
+@media (min-width: 1920px){
+   html{
+       background-color: rgb(209, 209, 202);
+   }
+   
+   
+
+   
+   .container{
+       box-shadow: black;
+       background-color: linear-gradient(green,rgb(32, 113, 39));
+       /*opacity: 50%;*/
+   }
+   .container img{
+       min-width: 100%;
+       height: 650px;
+       opacity: 50%;
+       
+   }
+   
+   header.abajo{
+       background:black;
+       padding: 15px 20px;
+       
+   }
+   header .logo{
+       position: relative;
+       color: #fff;
+       font-weight: bold;
+       font-size: 2em;
+       letter-spacing: 2px;
+       transition: 1.5s;
+       text-decoration: none;
+   }
+
+   body{
+       font-family: 'Yanone Kaffeesatz', sans-serif;
+       margin: 0;
+   }
+   header{
+       display: flex;
+       height: 75px;
+       background-color:rgb(32, 113, 39) ;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px;
+       
+   }
+   
+   .logo{
+       display: flex;
+       align-items: center;
+   }
+   .logo img{
+       height: 70px;
+       margin-right: 0px;
+   }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+   
+   nav a{
+       font-weight: 600;
+       padding-right: 15px;
+   }
+   
+   nav a:hover{
+       color:black;
+   }
+
+   ::before, ::after{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   
+   
+
+}
