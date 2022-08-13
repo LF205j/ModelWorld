@@ -1,19 +1,45 @@
 
-.uno a{
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:wght@400;700&display=swap');
+.compra a{
     text-decoration: none;
     display: block;
     border: 1px solid gray;
     width: 100%;
-    height: 18px;
+    height: 25px;
     text-align: center;
-    padding-top: -5px;
-    margin-top: -25px;
-    margin: 10px;
+    padding-top: 0px;
+    margin-top: -35px;
     background-color:rgb(32, 113, 39) ;
-    color: #fff;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #efefef;
+    font-family: 'Koulen', 'cursive';
     transition: 2s;
     font-size: 15px;
+    
+    
+   
+}
+.compra a:hover{
+    background-color: black;
+    
+}
+.compra img{
+    width: 100%;
+}
+.uno a{
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    width: 45px;
+    height: 25px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -25px;
+    background-color:rgb(32, 113, 39) ;
+    color: #efefef;
+    font-family: 'Koulen', 'cursive';
+    transition: 2s;
+    font-size: 15px;
+    
    
 }
 .uno a:hover{
@@ -30,32 +56,18 @@
     font-size: 120px;
     position: absolute;
     top: 100px;
-    left: 35%;
+    left: 20%;
     color: white;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Koulen', 'cursive';
     border-style: solid; 
     border-width: 10px;
     padding: 60px;
-    background-color: rgb(32, 113, 39);
+    background-image: linear-gradient(rgb(48, 185, 59),green);
 }
-#Datos1{
-       
-    height: 40px;
-    min-width: 1200px;
-    background-color:rgb(32, 113, 39) ;
-    padding: 15px;
-    
-}
-#Datos2{
-    height: 70px;
-    min-width: 1200px;
-    background-color:rgb(32, 113, 39) ;
-    padding: 15px;
-    
-}
+
 h1{
     color: white;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Koulen', 'cursive';
     height: 20px;
     width: 25px;
 }
@@ -63,25 +75,27 @@ h1{
 h2{
     color: white;
     
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Koulen', 'cursive';
     padding-left: 800px;
     margin-bottom: 20px;
     padding: 30px;
     border:rgb(170, 167, 167) ;
     font-size: 35px;
+    text-decoration: none;
     
 }
 
 h3{
     color: white;
     
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Koulen', 'cursive';
     padding-left: 800px;
-    background-color:rgb(32, 113, 39) ;
+    background-image: linear-gradient(rgb(48, 185, 59),green);
     padding: 30px;
     border:rgb(170, 167, 167) ;
     font-size: 35px;
     margin-top: -5px;
+    
     
 }
 td{
@@ -96,7 +110,72 @@ tr{
     color: rgb(170, 167, 167);
     height: 20px;
 }
+p{
+    
+    font-family: 'Koulen', 'cursive';
+    
+}
+#conteItemsCarrusel{
+    
+    height:450px ;
+    overflow: hidden;
+}
+.itemCarrusel{
+    
+    height: 100%;
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
 
+}
+.tarjetaCarrusel{
+    
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.flechasCarrusel{
+   
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 30px;
+}
+#tarjetaCarrusel-1{
+    background-color: rgba(32, 113, 39, 0.8);
+    margin-left: 20px;
+    margin-right: 5px;
+}
+#tarjetaCarrusel-2{
+    background-color: rgba(32, 113, 39, 0.8);
+    margin-left: 20px;
+    margin-right: 5px;
+}
+#tarjetaCarrusel-3{
+    background-color: rgba(32, 113, 39, 0.8);
+    margin-left: 20px;
+    margin-right: 5px;
+}
+#contePuntos{
+    
+    display: flex;
+    justify-content: space-around;
+}
+#contePuntos >a{
+    font-size: 1.9em;
+    font-style: none;
+}
+.tarjetaCarrusel img{
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+    
+}
 
 @media (min-width: 480px){
     
@@ -112,7 +191,7 @@ tr{
     header{
        display: flex;
        height: 75px;
-       background-color:rgb(32, 113, 39) ;
+       background-image: linear-gradient(rgb(48, 185, 59),green);
        justify-content: space-between;
        align-items: center;
        padding: 10px;
@@ -136,10 +215,13 @@ tr{
    }
    
    nav a{
-       font-weight: 600;
-       padding-right: 15px;
+    font-weight: 600;
+    padding-right: 15px; 
+    font-family: 'Koulen', 'cursive';
+    font-size: 22px;
+    color: #efefef;
      
-   }
+ }
    
   
    
@@ -172,6 +254,64 @@ tr{
        font-weight: 600;
        padding-right: 15px;
    }
+   .pie-pagina{
+    width: 100%;
+    background-image: linear-gradient(rgb(48, 185, 59),green);
+    }
+    .pie-pagina .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+    .pie-pagina .grupo-1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pie-pagina .grupo-1 .box figure img{
+        width: 200px;
+
+    }
+    .pie-pagina .grupo-1 .box h2{
+        color: white;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    .pie-pagina .grupo-1 .box p{
+        color: #efefef;
+        margin: bottom 10px;
+
+    }
+    .pie-pagina .grupo-1 .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color:#0d2023 ;
+        text-align: center;
+    }
+    .pie-pagina .grupo-1 .red-social a:hover{
+        background-color: rgb(51, 143, 143);
+    }
+
+    .pie-pagina .grupo-2{
+        background-color: rgb(41, 139, 49);
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+    }
+    .pie-pagina .grupo-2 small{
+        font-size: 15px;
+    }
    
 
 }

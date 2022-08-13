@@ -9,6 +9,57 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="conteItemsCarrusel">
+        <div class="itemCarrusel" id="itemCarrusel-1">
+            <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                <img src="img/Ferromodelismo.jpg" alt="imagen 1">
+            </div>
+            <div class="flechasCarrusel">
+                <a href="#itemCarrusel-2">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+
+                <a href="#itemCarrusel-3">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                
+            </div>
+        </div>
+        <div class="itemCarrusel" id="itemCarrusel-2">
+            <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                <img src="img/Aviones.jpg" alt="imagen 2">
+            </div>
+            <div class="flechasCarrusel">
+                <a href="#itemCarrusel-1">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+
+                <a href="#itemCarrusel-3">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="itemCarrusel" id="itemCarrusel-3">
+            <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                <img src="img/barco.jpg" alt="imagen 3">
+            </div>
+            <div class="flechasCarrusel">
+                <a href="#itemCarrusel-2">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+
+                <a href="#itemCarrusel-1">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="contePuntos">
+        <a href="#itemCarrusel-1">•</a>
+        <a href="#itemCarrusel-2">•</a>
+        <a href="#itemCarrusel-3">•</a>
+    </div>
+    
         <footer class="pie-pagina">
             <div class="grupo-1">
                 <div class="box">
@@ -36,11 +87,20 @@
                 </div>
                 <div class="box">
                     <h2>SIGUENOS</h2>
-                    <div class="red-social"></div>
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-youtube"></a>
+                    <div class="red-social">
+                        <a href="#" >
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#" >
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#" >
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#" >
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </div>
                 </div>
                 
             </div>
@@ -48,5 +108,9 @@
                     <small>&copy; 2022<b>ModelWorld</b>- Todos los Derechos Reservados</small>
             </div>
         </footer>
+        
+
+        
+
 </body>
 </html>

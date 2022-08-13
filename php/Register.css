@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,#30b93b, rgb(6, 146, 6));
+}
+
+#login .container #login-row #login-column #login-box{
+    margin-top: 70px;
+    max-width: 600px;
+    height:300px ;
+    box-shadow: 2px 2px 2px 2px #343a4b;
+    border-radius: 3px;
+}

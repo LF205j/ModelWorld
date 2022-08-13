@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/EscalasCss.css" as="style">
-    <link rel="icon" href="imagen/IconoTren.png">
+    
+    <link rel="icon" href="img/IconoTren.png">
+    <script src="https://kit.fontawesome.com/6cfb8a8743.js" crossorigin="anonymous"></script>
     <title>Escala Trenes</title>
     </head>
 <body>
     <header>
-        <a href="#" class="logo">
+        <a href="../phpPrueba.php" class="logo">
             <img src="img/IconoTren.png" alt="ModelWorld" >
-            <h2 class="nombreEmpresa">Model World</h2>
+            <h2 class="nombreEmpresa">ModelWorld</h2>
         </a>
         <nav>
              <a href="" class="nav-link">Inicio</a>
@@ -25,7 +27,7 @@
 
     <section class="container">
         <img src="img/Aviones.jpg" width="100%" height="600px" alt="Inicio">
-        <p>Aviones</p>
+        <p>Escalas</p>
     </section>
     
     
@@ -37,7 +39,7 @@
                     
                     
         
-        <tr> <td><a href="Escalas/TrenEscala.php">1:28</a></td>   <td><a href="Escalas/AvionEscala.php">1:32</a></td>   <td><a href="Escalas/TanqueEscala.php">1:35</a> </td> <td><a href="Escalas/AutoEscala.php">1:48</a></td> <td><a href="Escalas/BarcosEscala.php">1:72</a></td>  <td><a href="Escalas/Accesorios.php">1:144</a></td>  </tr>
+        <tr> <td><a href="../Secciones/Aviones.php">1:28</a></td>   <td><a href="../Secciones/Aviones.php">1:32</a></td>   <td><a href="../Secciones/Aviones.php">1:35</a> </td> <td><a href="../Secciones/Aviones.php">1:48</a></td> <td><a href="../Secciones/Aviones.php">1:72</a></td>  <td><a href="../Secciones/Aviones.php">1:144</a></td>  </tr>
 
         
         
@@ -47,16 +49,56 @@
 
 <br>
 
-<div id="Datos1"><a><b>
-Copyright © 2022 Model World<br>
+<? require('Segundo.php')?>
 
-Av. Cabildo 2370 Local 54 -Galería Rio de Janeiro-<br>
+<footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="img/IconoTren.png" alt="ModelWorld">   
+                        </a>
+                    </figure>
+                </div>
 
-Tel (011) 4089-7771 Buenos Aires -ARGENTINA- </b></a></div>
- 
-<div id="Datos2"><a><hr> <b>Horarios:<b><br> 
--Lunes-viernes: 10:30 AM - 19:00 PM<br>
--Sabado: 10:30 Am - 13:00 PM<br></a></div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS </h2>
+                    <p>Av. Cabildo 2370 Local 54 -Galería Rio de Janeiro-<br>
+
+                    Tel (011) 4089-7771 Buenos Aires -ARGENTINA-</p>
+                   
+                </div>
+                <div class="box">
+                    <h2>HORARIOS</h2>
+                    <div> <p>Horarios:<br> 
+                    -Lunes-viernes: 10:30 AM - 19:00 PM<br>
+                    -Sabado: 10:30 Am - 13:00 PM<br></p></div>
+
+
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" >
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#" >
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#" >
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#" >
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="grupo-2">
+                    <small>&copy; 2022<b>ModelWorld</b>- Todos los Derechos Reservados</small>
+            </div>
+        </footer>
 
 <script type="text/javascript">
     window.addEventListener("scroll",function(){
